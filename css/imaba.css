@@ -1,0 +1,48 @@
+/*!
+ * iMaba - April Version
+ * Copyright 2016 G. A. Pitoy
+ */
+html, body {
+  margin: 0 !important;
+  padding: 0 !important;
+  width: 100%;
+  overflow-x: hidden; }
+
+body {
+  background-color: #f9f9f9;
+  font-family: Lato; }
+
+ul, li {
+  padding: 0; }
+
+.hero {
+  min-height: 600px;
+  background-color: #121422;
+  color: #f9f9f9;
+  font-weight: 300; }
+  .hero h1 {
+    margin-top: 180px;
+    font-weight: 900;
+    font-size: 64px; }
+  .hero p {
+    font-size: 18px;
+    padding-top: 6px;
+    padding-bottom: 12px;
+    margin-bottom: 24px; }
+  .hero ul li {
+    display: inline-block;
+    padding: 0 38px 0 0;
+    font-weight: 400; }
+  .hero ul li:last-child {
+    padding: 0; }
+  .hero a {
+    color: #f9f9f9;
+    font-size: 23px; }
+    .hero a:hover, .hero a:focus {
+      color: white; }
+
+/* academia */
+.academia {
+  min-height: 600px; }
+
+/*# sourceMappingURL=imaba.css.map */

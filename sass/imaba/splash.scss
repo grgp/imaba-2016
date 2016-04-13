@@ -1,0 +1,39 @@
+.hero {
+	min-height: 600px;
+	background-color: $spaceblue;
+	color: $offwhite;
+	font-weight: 300;
+
+	h1 {
+		margin-top: 180px;
+		font-weight: 900;
+		font-size: 64px;
+	}
+
+	p {
+		font-size: 18px;
+		padding-top: 6px;
+		padding-bottom: 12px;
+		margin-bottom: 24px;
+	}
+
+	ul { 
+		li {
+			display: inline-block;
+			padding: 0 38px 0 0;
+			font-weight: 400;
+		}
+		li:last-child {
+			padding: 0;
+		}
+	}
+
+	a {
+		color: $offwhite;	
+		font-size: 23px;
+		&:hover, &:focus {
+			color: white;
+		}
+	}
+	
+}
