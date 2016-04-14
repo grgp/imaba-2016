@@ -147,8 +147,8 @@ var rings = [];
 var stage, sun, sunGrad;
 var planets = [];
   
-var CANVAS_WIDTH = 700;
-var CANVAS_HEIGHT = 500;
+var CANVAS_WIDTH = 1400;
+var CANVAS_HEIGHT = 600;
 
 var t = 0;
 
@@ -156,48 +156,52 @@ var data = [{
   name: 'Mercury',
   x: CANVAS_WIDTH * 0.5,
   y: CANVAS_HEIGHT * 0.5,
-  radius: 60,
+  radius: 200,
   speed: 0.8,
   degree: Math.random() * 1000,
   radian: 0,
-  planetSize: 24,
-  planetColor: '#999999',
+  planetSize: 16,
+  planetColor: '#913529',
+  planetDarkerColor: '#772822',
   isSatelite: false,
   satelites: []
 }, {
   name: 'Venus',
   x: CANVAS_WIDTH * 0.5,
   y: CANVAS_HEIGHT * 0.5,
-  radius: 90,
+  radius: 360,
   speed: 0.3,
   degree: Math.random() * 1000,
   radian: 0,
-  planetSize: 6,
-  planetColor: '#bf8639',
+  planetSize: 20,
+  planetColor: '#ceb07c',
+  planetDarkerColor: '#b2904b',
   isSatelite: false,
   satelites: []
 }, {
   name: 'Earth',
   x: CANVAS_WIDTH * 0.5,
   y: CANVAS_HEIGHT * 0.5,
-  radius: 120,
+  radius: 520,
   speed: 0.2,
   degree: Math.random() * 1000,
   radian: 0,
-  planetSize: 18,
-  planetColor: '#0066cc',
+  planetSize: 25,
+  planetColor: '#508aff',
+  planetDarkerColor: '#3164ad',
   isSatelite: false,
   satelites: [
     {
       name: 'Moon',
       x: CANVAS_WIDTH * 0.5,
       y: CANVAS_HEIGHT * 0.5,
-      radius: 13,
+      radius: 48,
       speed: 3,
       degree: Math.random() * 1000,
       radian: 0,
-      planetSize: 2,
+      planetSize: 8,
       planetColor: '#cccccc',
+      planetDarkerColor: '#ffffff',
       isSatelite: true,
       satelites: []
     }
@@ -206,12 +210,13 @@ var data = [{
   name: 'Mars',
   x: CANVAS_WIDTH * 0.5,
   y: CANVAS_HEIGHT * 0.5,
-  radius: 150,
+  radius: 680,
   speed: 0.1,
   degree: Math.random() * 1000,
   radian: 0,
-  planetSize: 6,
-  planetColor: '#aa4200',
+  planetSize: 20,
+  planetColor: '#ce5d46',
+  planetDarkerColor: '#aa4831',
   isSatelite: false,
   satelites: []
 }
@@ -236,12 +241,19 @@ var create = function(data, parent) {
     planet.extra.radian = item.radian;
     planet.extra.planetSize = item.planetSize;
     planet.extra.planetColor = item.planetColor;
+    planet.extra.planetDarkerColor = item.planetDarkerColor;
     planet.extra.isSatelite = item.isSatelite;
 
     planet.draw = function(){
-        context.fillStyle = this.extra.planetColor;
+        context.fillStyle = this.extra.planetDarkerColor;
         context.beginPath();
         context.arc(0, 0, this.extra.planetSize, 0, Math.PI * 2, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = this.extra.planetColor;
+        context.beginPath();
+        context.arc(0, 0, this.extra.planetSize, Math.PI * 5.2/3, Math.PI * 2.2/3, true);
         context.closePath();
         context.fill();
     };
@@ -283,10 +295,23 @@ var initialize = function() {
     sunGrad.addColorStop(1, '#cc9900');
 
     sun.draw = function(){
-
+        /*
         context.fillStyle = sunGrad;
         context.beginPath();
         context.arc(0, 0, 20, 0, Math.PI*2, true);
+        context.closePath();
+        context.fill();
+        */
+
+        context.fillStyle = '#ea961c';
+        context.beginPath();
+        context.arc(0, 0, 60, 0, Math.PI*2, true);
+        context.closePath();
+        context.fill();
+
+        context.fillStyle = '#ffaa22';
+        context.beginPath();
+        context.arc(0, 0, 60, Math.PI * 5.2/3, Math.PI * 2.2/3, true);
         context.closePath();
         context.fill();
 
@@ -300,10 +325,12 @@ var initialize = function() {
       ring.name = 'Ring' + l;
       ring.x = CANVAS_WIDTH * 0.5;
       ring.y = CANVAS_HEIGHT * 0.5;
-      ring.extra.radius = 60 + (l * 30);
+      ring.extra.radius = 200 + (l * 160);
       ring.draw = function(){
-        context.strokeStyle = "rgba(62,76,129,0.8)";
+        // context.strokeStyle = "rgba(62,76,129,0.8)";
+        context.strokeStyle = '#44474f';
         context.lineWidth = 2;
+        context.setLineDash([8, 24]);
         context.beginPath();
         context.arc(0, 0, this.extra.radius, 0, Math.PI*2, true);
         context.closePath();

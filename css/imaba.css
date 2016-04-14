@@ -17,9 +17,12 @@ ul, li {
 
 .hero {
   min-height: 600px;
-  background-color: #121422;
+  /*background-color: $spaceblue;*/
+  background: #121422;
   color: #f9f9f9;
   font-weight: 300; }
+  .hero row {
+    z-index: 1; }
   .hero h1 {
     margin-top: 180px;
     font-weight: 900;
@@ -40,6 +43,11 @@ ul, li {
     font-size: 23px; }
     .hero a:hover, .hero a:focus {
       color: white; }
+
+#world {
+  position: absolute !important;
+  z-index: 0;
+  margin-left: 200px; }
 
 /* academia */
 .academia {
