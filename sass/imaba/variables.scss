@@ -1,4 +1,21 @@
-$offwhite: #f9f9f9;
-$offblack: #303030;
-$spaceblue: #121422;
-$citrusorange: #EFAA1F;
+// $offwhite: #f9f9f9;
+// $offblack: #303030;
+// $spaceblue: #121422;
+// $citrusorange: #EFAA1F;
+
+$deepblue: #153956;
+$lighterblue: #4D7392;
+$floridaorange: #f2be2a;
+$flamingopink: #f95562;
+$reefcyan: #71ccc1;
+
+$purewhite: #ffffff;
+$classicwhite: #f9f9f9;
+$offwhite: #f4f4f4;
+$darkgray: #606060;
+$offblack: #505050;
+
+@mixin box-shadow($opacity) {
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, $opacity);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, $opacity);
+}

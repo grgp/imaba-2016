@@ -9,48 +9,90 @@ html, body {
   overflow-x: hidden; }
 
 body {
-  background-color: #f9f9f9;
-  font-family: Lato; }
+  background-color: #f4f4f4;
+  font-family: 'Josefin Sans'; }
 
 ul, li {
   padding: 0; }
 
-.hero {
-  min-height: 600px;
-  /*background-color: $spaceblue;*/
-  background: #121422;
+h1 {
+  font-family: 'Lato';
+  font-weight: 900;
+  font-size: 60px; }
+
+.splash {
+  background-color: #153956;
   color: #f9f9f9;
-  font-weight: 300; }
-  .hero row {
-    z-index: 1; }
-  .hero h1 {
-    margin-top: 180px;
-    font-weight: 900;
-    font-size: 64px; }
-  .hero p {
-    font-size: 18px;
-    padding-top: 6px;
-    padding-bottom: 12px;
-    margin-bottom: 24px; }
-  .hero ul li {
-    display: inline-block;
-    padding: 0 38px 0 0;
+  text-align: center;
+  height: 94vh; }
+  .splash p {
+    font-size: 21px;
     font-weight: 400; }
-  .hero ul li:last-child {
-    padding: 0; }
-  .hero a {
-    color: #f9f9f9;
-    font-size: 23px; }
-    .hero a:hover, .hero a:focus {
-      color: white; }
 
-#world {
-  position: absolute !important;
-  z-index: 0;
-  margin-left: 200px; }
+.splash-content {
+  padding-top: 200px; }
+  .splash-content img {
+    max-width: 90%;
+    padding-top: 20px; }
+  .splash-content h4 {
+    color: #f9f9f9; }
 
-/* academia */
-.academia {
-  min-height: 600px; }
+.navbar {
+  transition: all 0.3s; }
+  .navbar a {
+    padding-left: 0; }
+  .navbar .navbar-brand {
+    font-family: Lato;
+    font-weight: 900;
+    font-size: 25px;
+    color: #606060; }
+  .navbar img {
+    max-height: 35px; }
+  .navbar .nav a {
+    padding-left: 15px;
+    padding-right: 5px;
+    padding-top: 7px;
+    padding-bottom: 6px; }
+
+.navbar-color {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s;
+  background-color: #ffffff;
+  border-bottom: 0px solid #f2be2a; }
+  .navbar-color .navbar-brand {
+    color: #505050; }
+
+.academic {
+  height: 100vh; }
+  .academic .row {
+    margin-top: 65px; }
+  .academic h2 {
+    font-size: 45px;
+    margin-bottom: 0; }
+  .academic h3 {
+    font-size: 34px;
+    margin: 0; }
+  .academic p {
+    font-size: 20px;
+    color: #606060; }
+  .academic .row-cont {
+    margin-top: 30px; }
+    .academic .row-cont h3 {
+      margin-bottom: 16px; }
+    .academic .row-cont p {
+      font-size: 18px; }
+  .academic .text-center {
+    padding: 70px 45px 0 25px; }
+    .academic .text-center p {
+      font-size: 20px; }
+  .academic .roundedbox-l {
+    border: 5px solid #71ccc1;
+    border-radius: 4px;
+    padding: 22px; }
+  .academic .roundedbox-r {
+    border: 5px solid #f95562;
+    border-radius: 6px;
+    padding: 22px; }
 
 /*# sourceMappingURL=imaba.css.map */

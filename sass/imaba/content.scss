@@ -1,5 +1,51 @@
-/* academia */
+.academic {
+	height: 100vh;
 
-.academia {
-	min-height: 600px;
+	.row {
+		margin-top: 65px;
+	}
+
+	h2 {
+		font-size: 45px;
+		margin-bottom: 0;
+	}
+
+	h3 {
+		font-size: 34px;
+		margin: 0;
+	}
+
+	p {
+		font-size: 20px;
+		color: $darkgray;
+	}
+
+	.row-cont {
+		margin-top: 30px;
+		h3 {
+			margin-bottom: 16px;
+		}
+		p {
+			font-size: 18px;
+		}
+	}
+
+	.text-center {
+		padding: 70px 45px 0 25px;
+		p {
+			font-size: 20px;
+		}
+	}
+
+	.roundedbox-l {
+		border: 5px solid $reefcyan;
+		border-radius: 4px;
+		padding: 22px;
+	}
+
+	.roundedbox-r {
+		border: 5px solid $flamingopink;
+		border-radius: 6px;
+		padding: 22px;
+	}
 }

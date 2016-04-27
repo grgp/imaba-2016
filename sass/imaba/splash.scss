@@ -1,50 +1,25 @@
-.hero {
-	min-height: 600px;
-	/*background-color: $spaceblue;*/
-	background: $spaceblue;
-	color: $offwhite;
-	font-weight: 300;
-
-	.row {
-		z-index: 1;
-	}
-
-	h1 {
-		margin-top: 180px;
-		font-weight: 900;
-		font-size: 64px;
-	}
+.splash {
+	background-color: $deepblue;
+	color: $classicwhite;
+	text-align: center;
+	height: 94vh;
 
 	p {
-		font-size: 18px;
-		padding-top: 6px;
-		padding-bottom: 12px;
-		margin-bottom: 24px;
+		font-size: 21px;
+		font-weight: 400;
 	}
 
-	ul { 
-		li {
-			display: inline-block;
-			padding: 0 38px 0 0;
-			font-weight: 400;
-		}
-		li:last-child {
-			padding: 0;
-		}
-	}
-
-	a {
-		color: $offwhite;	
-		font-size: 23px;
-		&:hover, &:focus {
-			color: white;
-		}
-	}
-	
 }
 
-#world {
-	position: absolute !important;
-	z-index: 0;
-	margin-left: 200px;
+.splash-content {
+	padding-top: 200px;
+
+	img {
+		max-width: 90%;
+		padding-top: 20px;
+	}
+
+	h4 {
+		color: $classicwhite;
+	} 
 }
