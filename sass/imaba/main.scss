@@ -2,12 +2,12 @@ html, body {
   margin: 0 !important;
   padding: 0 !important;
   width: 100%;
-  overflow-x: hidden;
 }
 
 body {
 	background-color: $offwhite;
 	font-family: 'Josefin Sans';
+	overflow-x: hidden;
 }
 
 ul, li {

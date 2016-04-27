@@ -5,12 +5,12 @@
 html, body {
   margin: 0 !important;
   padding: 0 !important;
-  width: 100%;
-  overflow-x: hidden; }
+  width: 100%; }
 
 body {
   background-color: #f4f4f4;
-  font-family: 'Josefin Sans'; }
+  font-family: 'Josefin Sans';
+  overflow-x: hidden; }
 
 ul, li {
   padding: 0; }
@@ -24,7 +24,8 @@ h1 {
   background-color: #153956;
   color: #f9f9f9;
   text-align: center;
-  height: 94vh; }
+  height: 94vh;
+  border-bottom: 3px solid #e4e4e4; }
   .splash p {
     font-size: 21px;
     font-weight: 400; }
@@ -59,40 +60,38 @@ h1 {
   visibility: hidden;
   transition: all 0.3s;
   background-color: #ffffff;
-  border-bottom: 0px solid #f2be2a; }
+  border-bottom: 3px solid #e4e4e4; }
   .navbar-color .navbar-brand {
     color: #505050; }
 
-.academic {
-  height: 100vh; }
-  .academic .row {
-    margin-top: 65px; }
-  .academic h2 {
-    font-size: 45px;
-    margin-bottom: 0; }
-  .academic h3 {
-    font-size: 34px;
-    margin: 0; }
-  .academic p {
-    font-size: 20px;
-    color: #606060; }
-  .academic .row-cont {
-    margin-top: 30px; }
-    .academic .row-cont h3 {
-      margin-bottom: 16px; }
-    .academic .row-cont p {
-      font-size: 18px; }
-  .academic .text-center {
-    padding: 70px 45px 0 25px; }
-    .academic .text-center p {
-      font-size: 20px; }
-  .academic .roundedbox-l {
-    border: 5px solid #71ccc1;
-    border-radius: 4px;
-    padding: 22px; }
-  .academic .roundedbox-r {
-    border: 5px solid #f95562;
-    border-radius: 6px;
-    padding: 22px; }
+#academic .row {
+  margin-top: 65px; }
+#academic h2 {
+  font-size: 45px;
+  margin-bottom: 0; }
+#academic h3 {
+  font-size: 34px;
+  margin: 0; }
+#academic p {
+  font-size: 20px;
+  color: #606060; }
+#academic .row-cont {
+  margin-top: 30px; }
+  #academic .row-cont h3 {
+    margin-bottom: 16px; }
+  #academic .row-cont p {
+    font-size: 18px; }
+#academic .text-center {
+  padding: 70px 45px 0 25px; }
+  #academic .text-center p {
+    font-size: 20px; }
+#academic .roundedbox-l {
+  border: 5px solid #71ccc1;
+  border-radius: 4px;
+  padding: 22px; }
+#academic .roundedbox-r {
+  border: 5px solid #f95562;
+  border-radius: 6px;
+  padding: 22px; }
 
 /*# sourceMappingURL=imaba.css.map */

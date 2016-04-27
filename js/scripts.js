@@ -1,4 +1,11 @@
+// header transition in on scroll
 $(document).ready(function(){       
+  $("#btn-academic").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#academic").offset().top
+    }, 700);
+  });
+
   var scroll_start = 0;
   var startchange = $('#dummy-trigger');
   var offset = startchange.offset();
@@ -16,3 +23,5 @@ $(document).ready(function(){
     });
   }
 });
+
+// scroll to element

@@ -1,9 +1,9 @@
 .navbar {
+	transition: all 0.3s;
+
 	a {
 		padding-left: 0;
 	}
-
-	transition: all 0.3s;
 
 	.navbar-brand {
 		font-family: Lato;
@@ -29,7 +29,7 @@
 	visibility: hidden;
 	transition: all 0.3s;
 	background-color: $purewhite;
-	border-bottom: 0px solid $floridaorange;
+	border-bottom: 3px solid $lightergray;
 
 	.navbar-brand {
 		color: $offblack;
