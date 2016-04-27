@@ -1,11 +1,6 @@
 // header transition in on scroll
 $(document).ready(function(){       
-  $("#btn-academic").click(function() {
-    $('html, body').animate({
-        scrollTop: $("#academic").offset().top
-    }, 700);
-  });
-
+  
   var scroll_start = 0;
   var startchange = $('#dummy-trigger');
   var offset = startchange.offset();
@@ -22,6 +17,25 @@ $(document).ready(function(){
       }
     });
   }
+
+  $("#btn-kemahasiswaan, #ico-kemahasiswaan").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#kemahasiswaan").offset().top
+    }, 900);
+  });
+
+  $("#btn-academic, #ico-academic").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#academic").offset().top
+    }, 700);
+  });
+
+  $("#btn-lain-lain, #ico-lain-lain").click(function() {
+    $('html, body').animate({
+        scrollTop: $("#lain-lain").offset().top
+    }, 1100);
+  });
+
 });
 
 // scroll to element

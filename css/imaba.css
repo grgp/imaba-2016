@@ -48,7 +48,8 @@ h1 {
     font-size: 25px;
     color: #606060; }
   .navbar img {
-    max-height: 35px; }
+    height: 50px;
+    padding: 7px 15px 6px 10px; }
   .navbar .nav a {
     padding-left: 15px;
     padding-right: 5px;
@@ -64,32 +65,32 @@ h1 {
   .navbar-color .navbar-brand {
     color: #505050; }
 
-#academic .row {
+#academic .row, #kemahasiswaan .row, #lain-lain .row {
   margin-top: 65px; }
-#academic h2 {
+#academic h2, #kemahasiswaan h2, #lain-lain h2 {
   font-size: 45px;
   margin-bottom: 0; }
-#academic h3 {
+#academic h3, #kemahasiswaan h3, #lain-lain h3 {
   font-size: 34px;
   margin: 0; }
-#academic p {
+#academic p, #kemahasiswaan p, #lain-lain p {
   font-size: 20px;
   color: #606060; }
-#academic .row-cont {
+#academic .row-cont, #kemahasiswaan .row-cont, #lain-lain .row-cont {
   margin-top: 30px; }
-  #academic .row-cont h3 {
+  #academic .row-cont h3, #kemahasiswaan .row-cont h3, #lain-lain .row-cont h3 {
     margin-bottom: 16px; }
-  #academic .row-cont p {
+  #academic .row-cont p, #kemahasiswaan .row-cont p, #lain-lain .row-cont p {
     font-size: 18px; }
-#academic .text-center {
+#academic .text-center, #kemahasiswaan .text-center, #lain-lain .text-center {
   padding: 70px 45px 0 25px; }
-  #academic .text-center p {
+  #academic .text-center p, #kemahasiswaan .text-center p, #lain-lain .text-center p {
     font-size: 20px; }
-#academic .roundedbox-l {
+#academic .roundedbox-l, #kemahasiswaan .roundedbox-l, #lain-lain .roundedbox-l {
   border: 5px solid #71ccc1;
   border-radius: 4px;
   padding: 22px; }
-#academic .roundedbox-r {
+#academic .roundedbox-r, #kemahasiswaan .roundedbox-r, #lain-lain .roundedbox-r {
   border: 5px solid #f95562;
   border-radius: 6px;
   padding: 22px; }

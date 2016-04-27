@@ -20,9 +20,9 @@
           <a class="navbar-brand" href="#">iMaba</a>
         </div>
         <ul class="nav navbar-nav navbar-right">
-        	<li><a><img src="img/headicons-05.png" alt=""></a></li>
-        	<li><a href=""><img src="img/headicons-06.png" alt=""></a></li>
-        	<li><a href=""><img src="img/headicons-07.png" alt=""></a></li>
+        	<li id="ico-kemahasiswaan"><img src="img/headicons-05.png" alt=""></li>
+        	<li id="ico-academic"><img src="img/headicons-06.png" alt=""></li>
+        	<li id="ico-lain-lain"><img src="img/headicons-07.png" alt=""></li>
           <!-- <li><a href="../navbar/">Default</a></li>
           <li><a href="../navbar-static-top/">Static top</a></li>
           <li class="active"><a href="./">Fixed top <span class="sr-only">(current)</span></a></li> -->
@@ -37,7 +37,7 @@
 						<h1>iMaba</h1>
 						<p class="">Hi there new CS Students! Want to know more about the <br>Faculty of Computer Science University of Indonesia?</p>
 						<div class="row">
-							<div class="col-xs-4">
+							<div class="col-xs-4" id="btn-kemahasiswaan">
 								<img src="img/mainicons-05.png" alt="">
 								<h4>kemahasiswaan</h4>
 							</div>
@@ -45,18 +45,18 @@
 								<img src="img/mainicons-06.png" alt="">
 								<h4>akademis</h4>
 							</div>
-							<div class="col-xs-4"><a href="">
+							<div class="col-xs-4" id="btn-lain-lain">
 								<img src="img/mainicons-07.png" alt="">
 								<h4>lain-lain</h4>
-							</a></div>
+							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 			<span id="dummy-trigger">
 		</section>
-		<section>
-			<div class="container" id="academic">
+		<section id="academic">
+			<div class="container">
 				<div class="row">
 					<div class="hblock">
 						<h2>akademis</h2>
@@ -85,12 +85,22 @@
 						</div>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<section id="kemahasiswaan">
+			<div class="container">
 				<div class="row">
 					<div class="hblock">
 						<h2>kemahasiswaan</h2>
 						<p>berbagai organisasi dan kegiatan kemahasiswaan yang ada di Fakultas Ilmu Komputer Universitas Indonesia</p>
 					</div>
 				</div>
+			</div>
+		</section>
+
+		<section id="lain-lain">
+			<div class="container">
 				<div class="row">
 					<div class="hblock">
 						<h2>lain-lain</h2>
@@ -99,8 +109,6 @@
 				</div>
 			</div>
 		</section>
-
-		
 		
 	</body>
 
