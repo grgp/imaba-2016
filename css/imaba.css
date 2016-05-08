@@ -81,49 +81,62 @@ hr {
 .navbar-right {
   float: right !important; }
 
-#info-ui .row, #academic .row, #kemahasiswaan .row, #lain-lain .row {
+/* #info-ui, #academic, #kemahasiswaan, #lain-lain { */
+.content .row {
   margin-top: 35px; }
-#info-ui img, #academic img, #kemahasiswaan img, #lain-lain img {
+.content .row-90 {
+  padding-left: 5%;
+  padding-right: 5%; }
+.content img {
   width: 100%; }
-#info-ui h2, #academic h2, #kemahasiswaan h2, #lain-lain h2 {
+.content h2 {
   font-family: Lato;
   font-size: 45px;
-  margin-bottom: 0;
+  margin-top: 15px;
+  margin-bottom: 5px;
   font-weight: 900;
   color: #606060; }
-#info-ui h3, #academic h3, #kemahasiswaan h3, #lain-lain h3 {
+.content h3 {
   font-family: Lato;
   font-size: 34px;
   margin: 0; }
-#info-ui p, #academic p, #kemahasiswaan p, #lain-lain p {
+.content p {
   font-size: 20px;
   color: #606060; }
-#info-ui .row-cont, #academic .row-cont, #kemahasiswaan .row-cont, #lain-lain .row-cont {
+.content .hblock img {
+  width: 120px;
+  padding: 0; }
+.content .row-cont {
   margin-top: 30px; }
-  #info-ui .row-cont h3, #academic .row-cont h3, #kemahasiswaan .row-cont h3, #lain-lain .row-cont h3 {
+  .content .row-cont h3 {
     margin-bottom: 16px; }
-  #info-ui .row-cont p, #academic .row-cont p, #kemahasiswaan .row-cont p, #lain-lain .row-cont p {
+  .content .row-cont p {
     font-size: 18px; }
-#info-ui #ilkomvssi, #academic #ilkomvssi, #kemahasiswaan #ilkomvssi, #lain-lain #ilkomvssi {
+.content #ilkomvssi {
   padding: 70px 45px 0 25px; }
-  #info-ui #ilkomvssi p, #academic #ilkomvssi p, #kemahasiswaan #ilkomvssi p, #lain-lain #ilkomvssi p {
+  .content #ilkomvssi p {
     font-size: 20px; }
-#info-ui .roundedbox-l, #academic .roundedbox-l, #kemahasiswaan .roundedbox-l, #lain-lain .roundedbox-l {
+.content .roundedbox-l {
   border: 5px solid #71ccc1;
   border-radius: 4px;
   padding: 22px; }
-#info-ui .roundedbox-r, #academic .roundedbox-r, #kemahasiswaan .roundedbox-r, #lain-lain .roundedbox-r {
+.content .roundedbox-r {
   border: 5px solid #f95562;
   border-radius: 6px;
   padding: 22px; }
 
 #info-ui {
-  margin-top: 20px; }
+  padding-top: 30px; }
   #info-ui img {
-    padding: 20px; }
+    padding: 0px; }
   #info-ui #map-ui {
-    padding-left: 30px; }
+    padding-left: 25px;
+    padding-right: 25px; }
   #info-ui #map-ui-legend {
-    padding-right: 110px; }
+    padding-left: 40px;
+    padding-right: 80px; }
+
+.infokosan p {
+  font-size: 16px; }
 
 /*# sourceMappingURL=imaba.css.map */

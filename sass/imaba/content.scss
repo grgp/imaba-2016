@@ -1,6 +1,12 @@
-#info-ui, #academic, #kemahasiswaan, #lain-lain {
+/* #info-ui, #academic, #kemahasiswaan, #lain-lain { */
+.content {
 	.row {
 		margin-top: 35px;
+	}
+
+	.row-90 {
+		padding-left: 5%;
+		padding-right: 5%;
 	}
 
 	img {
@@ -10,7 +16,8 @@
 	h2 {
 		font-family: Lato;
 		font-size: 45px;
-		margin-bottom: 0;
+		margin-top: 15px;
+		margin-bottom: 5px;
 		font-weight: 900;
 		color: $darkgray;
 	}
@@ -24,6 +31,13 @@
 	p {
 		font-size: 20px;
 		color: $darkgray;
+	}
+	
+	.hblock {
+		img {
+			width: 120px;
+			padding: 0;
+		}
 	}
 
 	.row-cont {
@@ -57,17 +71,23 @@
 }
 
 #info-ui {
-	margin-top: 20px;
+	padding-top: 30px;
 
 	img {
-		padding: 20px;
+		padding: 0px;
 	}
 
 	#map-ui {
-		padding-left: 30px;
+		padding-left: 25px;
+		padding-right: 25px;
 	}
 
 	#map-ui-legend {
-		padding-right: 110px;
+		padding-left: 40px;
+		padding-right: 80px;
 	}
+}
+
+.infokosan p {
+	font-size: 16px;
 }

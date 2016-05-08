@@ -18,15 +18,15 @@ $(document).ready(function(){
     });
   }
 
-  $("#btn-kemahasiswaan, #ico-kemahasiswaan").click(function() {
+  $("#btn-info-ui, #ico-info-ui").click(function() {
     $('html, body').animate({
-        scrollTop: $("#kemahasiswaan").offset().top
-    }, 900);
+        scrollTop: $("#info-ui").offset().top -20
+    }, 700);
   });
 
   $("#btn-academic, #ico-academic").click(function() {
     $('html, body').animate({
-        scrollTop: $("#academic").offset().top
+        scrollTop: $("#academic").offset().top -50
     }, 700);
   });
 
