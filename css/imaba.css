@@ -8,7 +8,7 @@ html, body {
   width: 100%; }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #f9f9f9;
   font-family: 'Josefin Sans';
   overflow-x: hidden; }
 
@@ -46,12 +46,12 @@ h1 {
     font-family: Lato;
     font-weight: 900;
     font-size: 25px;
-    color: #606060; }
+    color: #71ccc1; }
   .navbar img {
     height: 50px;
     padding: 7px 15px 6px 10px; }
   .navbar .nav a {
-    padding-left: 15px;
+    padding-left: 8px;
     padding-right: 5px;
     padding-top: 7px;
     padding-bottom: 6px; }
@@ -63,14 +63,16 @@ h1 {
   background-color: #ffffff;
   border-bottom: 3px solid #e4e4e4; }
   .navbar-color .navbar-brand {
-    color: #505050; }
+    color: #3cbca4; }
 
 #academic .row, #kemahasiswaan .row, #lain-lain .row {
   margin-top: 65px; }
 #academic h2, #kemahasiswaan h2, #lain-lain h2 {
+  font-family: Lato;
   font-size: 45px;
   margin-bottom: 0; }
 #academic h3, #kemahasiswaan h3, #lain-lain h3 {
+  font-family: Lato;
   font-size: 34px;
   margin: 0; }
 #academic p, #kemahasiswaan p, #lain-lain p {

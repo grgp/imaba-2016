@@ -5,11 +5,11 @@
 		padding-left: 0;
 	}
 
-	.navbar-brand {
+	.navbar-brand { 
 		font-family: Lato;
 		font-weight: 900;
 		font-size: 25px;
-		color: $darkgray;
+		color: $reefcyan;
 	}
 
 	img {
@@ -18,7 +18,7 @@
 	}
 
 	.nav a {
-		padding-left:15px;
+		padding-left:8px;
 		padding-right:5px;
 		padding-top:7px;
 		padding-bottom: 6px;
@@ -33,6 +33,6 @@
 	border-bottom: 3px solid $lightergray;
 
 	.navbar-brand {
-		color: $offblack;
+		color: $reefcyanoff;
 	}
 }
