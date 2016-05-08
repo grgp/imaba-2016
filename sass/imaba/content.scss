@@ -1,12 +1,18 @@
-#academic, #kemahasiswaan, #lain-lain {
+#info-ui, #academic, #kemahasiswaan, #lain-lain {
 	.row {
-		margin-top: 65px;
+		margin-top: 35px;
+	}
+
+	img {
+		width: 100%;
 	}
 
 	h2 {
 		font-family: Lato;
 		font-size: 45px;
 		margin-bottom: 0;
+		font-weight: 900;
+		color: $darkgray;
 	}
 
 	h3 {
@@ -30,7 +36,7 @@
 		}
 	}
 
-	.text-center {
+	#ilkomvssi {
 		padding: 70px 45px 0 25px;
 		p {
 			font-size: 20px;
@@ -47,5 +53,21 @@
 		border: 5px solid $flamingopink;
 		border-radius: 6px;
 		padding: 22px;
+	}
+}
+
+#info-ui {
+	margin-top: 20px;
+
+	img {
+		padding: 20px;
+	}
+
+	#map-ui {
+		padding-left: 30px;
+	}
+
+	#map-ui-legend {
+		padding-right: 110px;
 	}
 }

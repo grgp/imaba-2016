@@ -8,7 +8,7 @@ html, body {
   width: 100%; }
 
 body {
-  background-color: #f9f9f9;
+  background-color: #fcfcfc;
   font-family: 'Josefin Sans';
   overflow-x: hidden; }
 
@@ -19,6 +19,9 @@ h1 {
   font-family: 'Lato';
   font-weight: 900;
   font-size: 60px; }
+
+hr {
+  border: #e4e4e4 1px solid; }
 
 .splash {
   background-color: #153956;
@@ -49,7 +52,7 @@ h1 {
     color: #71ccc1; }
   .navbar img {
     height: 50px;
-    padding: 7px 15px 6px 10px; }
+    padding: 7px 0px 6px 25px; }
   .navbar .nav a {
     padding-left: 8px;
     padding-right: 5px;
@@ -60,41 +63,67 @@ h1 {
   opacity: 0;
   visibility: hidden;
   transition: all 0.3s;
-  background-color: #ffffff;
+  background-color: #fcfcfc;
   border-bottom: 3px solid #e4e4e4; }
   .navbar-color .navbar-brand {
     color: #3cbca4; }
 
-#academic .row, #kemahasiswaan .row, #lain-lain .row {
-  margin-top: 65px; }
-#academic h2, #kemahasiswaan h2, #lain-lain h2 {
+/* override collapse */
+.navbar-collapse.collapse {
+  display: block !important; }
+
+.navbar-nav > li, .navbar-nav {
+  float: left !important; }
+
+.navbar-nav.navbar-right:last-child {
+  margin-right: -15px !important; }
+
+.navbar-right {
+  float: right !important; }
+
+#info-ui .row, #academic .row, #kemahasiswaan .row, #lain-lain .row {
+  margin-top: 35px; }
+#info-ui img, #academic img, #kemahasiswaan img, #lain-lain img {
+  width: 100%; }
+#info-ui h2, #academic h2, #kemahasiswaan h2, #lain-lain h2 {
   font-family: Lato;
   font-size: 45px;
-  margin-bottom: 0; }
-#academic h3, #kemahasiswaan h3, #lain-lain h3 {
+  margin-bottom: 0;
+  font-weight: 900;
+  color: #606060; }
+#info-ui h3, #academic h3, #kemahasiswaan h3, #lain-lain h3 {
   font-family: Lato;
   font-size: 34px;
   margin: 0; }
-#academic p, #kemahasiswaan p, #lain-lain p {
+#info-ui p, #academic p, #kemahasiswaan p, #lain-lain p {
   font-size: 20px;
   color: #606060; }
-#academic .row-cont, #kemahasiswaan .row-cont, #lain-lain .row-cont {
+#info-ui .row-cont, #academic .row-cont, #kemahasiswaan .row-cont, #lain-lain .row-cont {
   margin-top: 30px; }
-  #academic .row-cont h3, #kemahasiswaan .row-cont h3, #lain-lain .row-cont h3 {
+  #info-ui .row-cont h3, #academic .row-cont h3, #kemahasiswaan .row-cont h3, #lain-lain .row-cont h3 {
     margin-bottom: 16px; }
-  #academic .row-cont p, #kemahasiswaan .row-cont p, #lain-lain .row-cont p {
+  #info-ui .row-cont p, #academic .row-cont p, #kemahasiswaan .row-cont p, #lain-lain .row-cont p {
     font-size: 18px; }
-#academic .text-center, #kemahasiswaan .text-center, #lain-lain .text-center {
+#info-ui #ilkomvssi, #academic #ilkomvssi, #kemahasiswaan #ilkomvssi, #lain-lain #ilkomvssi {
   padding: 70px 45px 0 25px; }
-  #academic .text-center p, #kemahasiswaan .text-center p, #lain-lain .text-center p {
+  #info-ui #ilkomvssi p, #academic #ilkomvssi p, #kemahasiswaan #ilkomvssi p, #lain-lain #ilkomvssi p {
     font-size: 20px; }
-#academic .roundedbox-l, #kemahasiswaan .roundedbox-l, #lain-lain .roundedbox-l {
+#info-ui .roundedbox-l, #academic .roundedbox-l, #kemahasiswaan .roundedbox-l, #lain-lain .roundedbox-l {
   border: 5px solid #71ccc1;
   border-radius: 4px;
   padding: 22px; }
-#academic .roundedbox-r, #kemahasiswaan .roundedbox-r, #lain-lain .roundedbox-r {
+#info-ui .roundedbox-r, #academic .roundedbox-r, #kemahasiswaan .roundedbox-r, #lain-lain .roundedbox-r {
   border: 5px solid #f95562;
   border-radius: 6px;
   padding: 22px; }
+
+#info-ui {
+  margin-top: 20px; }
+  #info-ui img {
+    padding: 20px; }
+  #info-ui #map-ui {
+    padding-left: 30px; }
+  #info-ui #map-ui-legend {
+    padding-right: 110px; }
 
 /*# sourceMappingURL=imaba.css.map */
