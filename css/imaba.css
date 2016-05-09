@@ -111,21 +111,31 @@ hr {
   width: 100%; }
 .content h2 {
   font-family: Lato;
-  font-size: 45px;
+  font-size: 56px;
   margin-top: 15px;
   margin-bottom: 5px;
   font-weight: 900;
   color: #606060; }
-.content h3 {
+.content h3, .content h4 {
   font-family: Lato;
-  font-size: 34px;
+  font-size: 36px;
+  font-weight: 700;
+  color: #606060;
   margin: 0; }
+.content h4 {
+  font-size: 36px;
+  margin-top: 14px;
+  margin-bottom: 14px; }
 .content p {
-  font-size: 20px;
+  font-size: 21px;
+  font-weight: 600;
   color: #606060; }
 .content .hblock img {
-  width: 120px;
-  padding: 0; }
+  width: 140px;
+  padding: 0;
+  margin: 0; }
+.content .hblock h3 {
+  margin-top: 40px; }
 .content .row-cont {
   margin-top: 30px; }
   .content .row-cont h3 {
@@ -133,13 +143,15 @@ hr {
   .content .row-cont p {
     font-size: 18px; }
 .content #ilkomvssi {
-  padding: 70px 45px 0 25px; }
+  text-align: right;
+  padding: 70px 22px 0 25px; }
   .content #ilkomvssi p {
     font-size: 20px; }
 .content .roundedbox-l {
   border: 5px solid #71ccc1;
   border-radius: 4px;
-  padding: 22px; }
+  padding: 22px;
+  margin-bottom: 20px; }
 .content .roundedbox-r {
   border: 5px solid #f95562;
   border-radius: 6px;
@@ -160,11 +172,23 @@ hr {
   #info-ui #map-ui {
     padding-left: 5px;
     padding-right: 5px; } }
-.infokosan p {
-  font-size: 16px; }
+#infokosan-h hr {
+  margin-bottom: 0; }
 
-#akademis {
-  padding-top: 30px; }
+.infokosan div {
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 0; }
+.infokosan img {
+  margin: auto; }
+.infokosan p {
+  font-size: 19px;
+  font-weight: 400; }
+.infokosan .infokosan-price {
+  font-weight: 400; }
+
+#academic {
+  padding-top: 40px; }
 
 #lain-lain {
   padding-top: 30px; }

@@ -15,28 +15,42 @@
 
 	h2 {
 		font-family: Lato;
-		font-size: 45px;
+		font-size: 56px;
 		margin-top: 15px;
 		margin-bottom: 5px;
 		font-weight: 900;
 		color: $darkgray;
 	}
 
-	h3 {
+	h3, h4 {
 		font-family: Lato;
-		font-size: 34px;
+		font-size: 36px;
+		font-weight: 700;
+		color: $darkgray;
 		margin: 0;
 	}
 
+	h4 {
+		font-size: 36px;		
+		margin-top: 14px;
+		margin-bottom: 14px;
+	}
+
 	p {
-		font-size: 20px;
+		font-size: 21px;
+		font-weight: 600;
 		color: $darkgray;
 	}
 	
 	.hblock {
 		img {
-			width: 120px;
+			width: 140px;
 			padding: 0;
+			margin: 0;
+		}
+
+		h3 {
+			margin-top: 40px;
 		}
 	}
 
@@ -51,7 +65,8 @@
 	}
 
 	#ilkomvssi {
-		padding: 70px 45px 0 25px;
+		text-align: right;
+		padding: 70px 22px 0 25px;
 		p {
 			font-size: 20px;
 		}
@@ -61,6 +76,7 @@
 		border: 5px solid $reefcyan;
 		border-radius: 4px;
 		padding: 22px;
+		margin-bottom: 20px;
 	}
 
 	.roundedbox-r {
@@ -99,12 +115,32 @@
 		}
 }
 
-.infokosan p {
-	font-size: 16px;
+#infokosan-h {
+	hr {
+		margin-bottom: 0;
+	}
 }
 
-#akademis {
-	padding-top: 30px;
+.infokosan {
+	div {
+		padding-left: 30px;
+		padding-right: 30px;
+		padding-top: 0;
+	}
+	img {
+		margin: auto;
+	}
+	p {
+		font-size: 19px;
+		font-weight: 400;
+	}
+	.infokosan-price {
+		font-weight: 400;
+	}
+}
+
+#academic {
+	padding-top: 40px;
 }
 
 #lain-lain {
