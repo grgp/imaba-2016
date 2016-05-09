@@ -1,29 +1,51 @@
 .splash {
 	background-color: $deepblue;
 	color: $classicwhite;
-	text-align: center;
+	/* text-align: center; */
 	min-height: 94vh;
 	border-bottom: 3px solid $lightergray;
 
 	p {
 		font-size: 23px;
 		font-weight: 400;
+		margin-bottom: 20px;
 	}
 
 }
 
 .splash-content {
-	padding-top: 200px;
+	padding-top: 180px;
 	padding-bottom: 40px;
+	padding-right: 40px;
 
 	img {
-		max-width: 90%;
-		padding-top: 20px;
+		max-width: 35px;
+		padding-top: 0px;
+		margin-right: 6px;
+		margin-bottom: 10px;
 	}
 
 	h4 {
 		color: $classicwhite;
 	} 
+
+	a {
+		font-size: 19px;
+		padding-top: 3px;
+		text-decoration: none;
+		color: $classicwhite;	
+		&:hover, &:focus {
+			color: $classicwhite;		
+		}
+	}
+}
+
+.splash-image {
+	padding-top: 100px;
+	
+	img {
+		max-width: 100%;
+	}
 }
 
 @media only screen 

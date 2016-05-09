@@ -20,7 +20,7 @@ $(document).ready(function(){
 
   $("#btn-info-ui, #ico-info-ui").click(function() {
     $('html, body').animate({
-        scrollTop: $("#info-ui").offset().top -20
+        scrollTop: $("#info-ui").offset().top -5
     }, 700);
   });
 

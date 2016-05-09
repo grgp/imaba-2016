@@ -26,21 +26,37 @@ hr {
 .splash {
   background-color: #153956;
   color: #f9f9f9;
-  text-align: center;
+  /* text-align: center; */
   min-height: 94vh;
   border-bottom: 3px solid #e4e4e4; }
   .splash p {
     font-size: 23px;
-    font-weight: 400; }
+    font-weight: 400;
+    margin-bottom: 20px; }
 
 .splash-content {
-  padding-top: 200px;
-  padding-bottom: 40px; }
+  padding-top: 180px;
+  padding-bottom: 40px;
+  padding-right: 40px; }
   .splash-content img {
-    max-width: 90%;
-    padding-top: 20px; }
+    max-width: 35px;
+    padding-top: 0px;
+    margin-right: 6px;
+    margin-bottom: 10px; }
   .splash-content h4 {
     color: #f9f9f9; }
+  .splash-content a {
+    font-size: 19px;
+    padding-top: 3px;
+    text-decoration: none;
+    color: #f9f9f9; }
+    .splash-content a:hover, .splash-content a:focus {
+      color: #f9f9f9; }
+
+.splash-image {
+  padding-top: 100px; }
+  .splash-image img {
+    max-width: 100%; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 540px) {
   .splash-content {
