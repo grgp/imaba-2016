@@ -35,6 +35,9 @@ hr {
     font-weight: 400;
     margin-bottom: 20px; }
 
+@media only screen and (max-device-width: 14000px) {
+  .splash {
+    min-height: 700px; } }
 .splash-content {
   padding-top: 180px;
   padding-bottom: 40px;
@@ -70,6 +73,7 @@ hr {
     font-family: Lato;
     font-weight: 900;
     font-size: 25px;
+    padding-top: 25px;
     color: #71ccc1; }
   .navbar img {
     height: 50px;
@@ -144,7 +148,7 @@ hr {
   .content .row-cont p {
     font-size: 18px; }
 .content #ilkomvssi {
-  text-align: right;
+  text-align: left;
   padding: 70px 22px 0 25px; }
   .content #ilkomvssi p {
     font-size: 20px; }
@@ -186,7 +190,7 @@ hr {
   font-size: 19px;
   font-weight: 400; }
 .infokosan .infokosan-price {
-  font-weight: 400; }
+  font-weight: 600; }
 
 #academic {
   padding-top: 40px; }
