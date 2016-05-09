@@ -28,6 +28,7 @@ hr {
   color: #f9f9f9;
   /* text-align: center; */
   min-height: 94vh;
+  max-height: 800px;
   border-bottom: 3px solid #e4e4e4; }
   .splash p {
     font-size: 23px;
