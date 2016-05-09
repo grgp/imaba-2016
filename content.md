@@ -2,6 +2,10 @@
 
 #### (Filler/Peta Fasilkom) ?
 
+## Info UI
+  - Peta UI
+  - Info Kosan
+
 ## Akademis
   - Beda Ilkom vs SI (lebih singkat dr yg skrg, lebih ke visual(?))
   - Belajar apa di Fasilkom? (Programming/Math/SI)
@@ -11,10 +15,6 @@
   - Kegiatan2 di Fasilkom
   - Survei2 dr iMaba tahun lalu (nanti di versi final surveinya baru lg)
   - Beasiswa
-
-## Info UI
-  - Peta UI
-  - Info Kosan
 
 ## Lain-lain
   - Socmed BEM Fasilkom/Adkesma/PMB/etc. 

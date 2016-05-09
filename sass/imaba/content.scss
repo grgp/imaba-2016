@@ -88,6 +88,25 @@
 	}
 }
 
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 540px) {
+		#info-ui {
+			#map-ui {
+				padding-left: 5px;
+				padding-right: 5px;
+			}
+		}
+}
+
 .infokosan p {
 	font-size: 16px;
+}
+
+#akademis {
+	padding-top: 30px;
+}
+
+#lain-lain {
+	padding-top: 30px;
 }

@@ -27,7 +27,7 @@ $(document).ready(function(){
   $("#btn-academic, #ico-academic").click(function() {
     $('html, body').animate({
         scrollTop: $("#academic").offset().top -50
-    }, 700);
+    }, 1000);
   });
 
   $("#btn-lain-lain, #ico-lain-lain").click(function() {

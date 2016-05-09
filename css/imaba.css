@@ -27,20 +27,24 @@ hr {
   background-color: #153956;
   color: #f9f9f9;
   text-align: center;
-  height: 94vh;
+  min-height: 94vh;
   border-bottom: 3px solid #e4e4e4; }
   .splash p {
-    font-size: 21px;
+    font-size: 23px;
     font-weight: 400; }
 
 .splash-content {
-  padding-top: 200px; }
+  padding-top: 200px;
+  padding-bottom: 40px; }
   .splash-content img {
     max-width: 90%;
     padding-top: 20px; }
   .splash-content h4 {
     color: #f9f9f9; }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 540px) {
+  .splash-content {
+    padding-top: 80px; } }
 .navbar {
   transition: all 0.3s; }
   .navbar a {
@@ -136,7 +140,17 @@ hr {
     padding-left: 40px;
     padding-right: 80px; }
 
+@media only screen and (min-device-width: 320px) and (max-device-width: 540px) {
+  #info-ui #map-ui {
+    padding-left: 5px;
+    padding-right: 5px; } }
 .infokosan p {
   font-size: 16px; }
+
+#akademis {
+  padding-top: 30px; }
+
+#lain-lain {
+  padding-top: 30px; }
 
 /*# sourceMappingURL=imaba.css.map */
