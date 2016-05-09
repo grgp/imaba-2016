@@ -141,6 +141,34 @@
 
 #academic {
 	padding-top: 40px;
+
+	.belajarapa {
+
+		div {
+			padding-left: 10px;
+			padding-right: 10px;
+		}
+		img {
+			width: 100%;
+			text-align: center;
+			padding-left: 80px;
+			padding-right: 80px;
+		}
+		h3 {
+			margin-top: 20px;
+			text-align: center;
+			font-size: 30px;
+			color: $offblack;
+		}
+		p {
+			font-weight: 500;
+			margin-top: 20px;
+			text-align: center;
+		}
+		li {
+			list-style-type: none;
+		}
+	}
 }
 
 #lain-lain {

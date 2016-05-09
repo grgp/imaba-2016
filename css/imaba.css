@@ -189,6 +189,25 @@ hr {
 
 #academic {
   padding-top: 40px; }
+  #academic .belajarapa div {
+    padding-left: 10px;
+    padding-right: 10px; }
+  #academic .belajarapa img {
+    width: 100%;
+    text-align: center;
+    padding-left: 80px;
+    padding-right: 80px; }
+  #academic .belajarapa h3 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #505050; }
+  #academic .belajarapa p {
+    font-weight: 500;
+    margin-top: 20px;
+    text-align: center; }
+  #academic .belajarapa li {
+    list-style-type: none; }
 
 #lain-lain {
   padding-top: 30px; }
