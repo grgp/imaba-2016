@@ -253,8 +253,6 @@ hr {
 
 #lain-lain {
   padding-top: 30px; }
-  #lain-lain .socmed div {
-    margin-bottom: 10px; }
   #lain-lain .socmed img {
     width: 90%; }
   #lain-lain .socmed #logopmb {
@@ -265,7 +263,9 @@ hr {
     text-align: center;
     line-height: 32px; }
   #lain-lain .socmed div {
-    margin-bottom: 30px; }
+    margin-bottom: 50px; }
+  #lain-lain .socmed #logopmb {
+    margin-bottom: 10px; }
   #lain-lain .whatsnext {
     margin-top: 0;
     margin-bottom: 60px;
