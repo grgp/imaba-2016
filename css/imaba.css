@@ -52,7 +52,7 @@ hr {
   padding-right: 40px; }
   .splash-content img {
     max-width: 35px;
-    padding-top: 0px;
+    padding-top: 8px;
     margin-right: 6px;
     margin-bottom: 10px; }
   .splash-content h4 {
@@ -273,5 +273,12 @@ hr {
     font-size: 18px;
     font-weight: 400;
     color: #606060; }
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 990px) {
+  #lain-lain .socmed img {
+    width: 70%; } }
+@media only screen and (max-device-width: 540px) {
+  #lain-lain .socmed img {
+    width: 70%; } }
 
 /*# sourceMappingURL=imaba.css.map */

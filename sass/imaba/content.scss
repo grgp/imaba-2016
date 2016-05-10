@@ -194,7 +194,6 @@
 	.socmed {
 		img {
 			width: 90%;
-			
 		}
 		#logopmb {
 			padding-left: 60px;
@@ -222,4 +221,23 @@
 		font-weight: 400;
 		color: $darkgray;
 	}
+}
+
+@media only screen 
+	and (min-device-width: 768px)
+  and (max-device-width: 990px) {
+		#lain-lain .socmed {
+			img {
+				width: 70%;
+			}
+		}
+}
+
+@media only screen 
+  and (max-device-width: 540px) {
+		#lain-lain .socmed {
+			img {
+				width: 70%;
+			}
+		}
 }
