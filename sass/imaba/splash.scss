@@ -2,7 +2,7 @@
 	background-color: $deepblue;
 	color: $classicwhite;
 	/* text-align: center; */
-	min-height: 94vh;
+	min-height: 640px;
 	max-height: 800px;
 	border-bottom: 3px solid $lightergray;
 
@@ -12,13 +12,6 @@
 		margin-bottom: 20px;
 	}
 
-}
-
-@media only screen 
-  and (max-device-width: 14000px) {
-		.splash {
-			min-height: 700px;
-		}
 }
 
 .splash-content {
@@ -57,9 +50,29 @@
 }
 
 @media only screen 
-  and (min-device-width: 320px) 
+  and (max-device-width: 1400px) 
+  and (min-device-width: 1366px) 
+  {
+		.splash {
+			min-height: 700px;
+		}
+}
+
+@media only screen 
+	and (min-device-width: 768px)
+  and (max-device-width: 990px) {
+		.col-sm-6 {
+			width: 70%;
+		}
+}
+
+@media only screen 
   and (max-device-width: 540px) {
 		.splash-content {
 			padding-top: 80px;
+		}
+
+		.splash {
+			min-height: 525px;
 		}
 }

@@ -20,19 +20,19 @@ $(document).ready(function(){
 
   $("#btn-info-ui, #ico-info-ui").click(function() {
     $('html, body').animate({
-        scrollTop: $("#info-ui").offset().top -5
+        scrollTop: $("#info-ui").offset().top -40
     }, 700);
   });
 
   $("#btn-academic, #ico-academic").click(function() {
     $('html, body').animate({
-        scrollTop: $("#academic").offset().top -50
+        scrollTop: $("#academic").offset().top -40
     }, 1000);
   });
 
   $("#btn-lain-lain, #ico-lain-lain").click(function() {
     $('html, body').animate({
-        scrollTop: $("#lain-lain").offset().top
+        scrollTop: $("#lain-lain").offset().top -40
     }, 1100);
   });
 

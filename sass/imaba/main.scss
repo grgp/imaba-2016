@@ -23,3 +23,16 @@ h1 {
 hr {
 	border: $lightergray 1px solid;
 }
+
+#foot {
+	border-top: 3px solid $lightergray;
+	h5 {
+		font-size: 14px;
+		font-weight: 600;
+		color: $darkgray;
+		text-align: center;
+		padding-top: 25px;
+		padding-bottom: 30px;
+		margin: 0;
+	}
+}
