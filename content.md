@@ -1,6 +1,6 @@
 ## iMaba
 
-#### (Filler/Peta Fasilkom) ?
+#### (Filler/Peta Fasilkom)
 
 ## Info UI
   - Peta UI
