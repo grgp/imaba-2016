@@ -9,10 +9,12 @@
 ## Akademis
   - Beda Ilkom vs SI (lebih singkat dr yg skrg, lebih ke visual(?))
   - Belajar apa di Fasilkom? (Programming/Math/SI)
-  - Resource belajar buat yg tertarik 
+    - Resource belajar buat yg tertarik 
+  - SKS + Path Tree
 
 ## Kemahasiswaan
-  - Kegiatan2 di Fasilkom
+  - Kegiatan2 di Fasilkom/Organisasi2
+  - Ukor/UKF  
   - Survei2 dr iMaba tahun lalu (nanti di versi final surveinya baru lg)
   - Beasiswa
 
@@ -20,9 +22,7 @@
   - Socmed BEM Fasilkom/Adkesma/PMB/etc. 
   - What's next for iMaba? (scr umum buat membantu mereka di semester 1)
     - Info akademis yg lebih lengkap (SKS, etc)
-    - Kegiatan2 di Fasilkom/Organisasi2
     - Mungkin tambahan dr PMB
-    - Ukor/UKF
 
 --------------- 20160611-1032
 
