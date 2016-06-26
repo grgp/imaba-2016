@@ -24,7 +24,8 @@ hr {
   border: #e4e4e4 1px solid; }
 
 #foot {
-  border-top: 3px solid #e4e4e4; }
+  border-top: 3px solid #e4e4e4;
+  width: 100%; }
   #foot h5 {
     font-size: 14px;
     font-weight: 600;

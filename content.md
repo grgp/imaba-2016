@@ -20,29 +20,30 @@
 ### new Info Umum
   - [+] FIK salah di peta
   - [] Warna Ilkom vs. SI
-  - [] Kendaraan menuju Fasilkom (parkir dan jam parkir? peraturan maba?)
-  - [++] Jalur bikun/halte bikun/jadwal
-  - [] Spekun
-  - [] Waktu tempuh dari kost
+  / [] Kendaraan menuju Fasilkom (parkir dan jam parkir? peraturan maba?)
+  / [++] Jalur bikun/halte bikun/jadwal
+  / [] Spekun
+  / [] Waktu tempuh dari kost
 
 ### new Akademis
-  - [+] kurikulum 2016
+  -
+  / [+] kurikulum 2016
       probably still pure AI bcs who cares
-  - [++] belajar SI apa aja belum jelas
-  - [] Penjelasan matkul semester 1 2
+  / [++] belajar SI apa aja belum jelas
+  / [] Penjelasan matkul semester 1 2
   - [+] Bahasa pemrograman, DDP 1 + DDP 2
-  - [] Kebutuhan atau keperluan (sarana/prasarana), laptop, probably lab schedules
+  / [] Kebutuhan atau keperluan (sarana/prasarana), laptop, probably lab schedules
   - [] Ciri khas fasilkom, yang spesial, peta fasilkom, contoh karya2 kakak kelasnya
-  - [] Prospek kerja masing2 prodi (probably that TiA article)
+  / [] Prospek kerja masing2 prodi (probably that TiA article)
 
 ### new Kemahasiswaan
   - [] Perpustakaan/kantin/musholla/dsb
-  - [] Tempat2 fasilkom terkenal
+  / [] Tempat2 fasilkom terkenal
   - [] Harga makanan di kantin fasilkom
-  - [] UKF, Ukor, line kontingen
+  / [] UKF, Ukor, line kontingen
   - [] BOPB
-  - [] Acara2, bwb, betis, compfest
-  - [] Kelembagaan/kepanitiaan fasilkom maupun UI
+  / [] Acara2, bwb, betis, compfest
+  / [] Kelembagaan/kepanitiaan fasilkom maupun UI
 
 --------------- 20160625-1436
 
