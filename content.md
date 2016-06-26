@@ -3,6 +3,8 @@
 #### (Filler/Peta Fasilkom)
 
 ### ideas
+  - more like the landing pages of affinity designer and the like
+  - revamped kosan, more streamlined
   - probably accordion/FAQ for all the misc questions, at the end of each
 
 ### general

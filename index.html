@@ -4,13 +4,15 @@
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+		<link rel="stylesheet" href="css/bootstrap.css">
 		<link rel="stylesheet" href="css/imaba.css">
 
 		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,900' rel='stylesheet' type='text/css'>
 		<link href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
-		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
-		
+<!-- 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"> -->
+
+		<!--		
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -20,22 +22,11 @@
 		  ga('create', 'UA-78072942-1', 'auto');
 		  ga('send', 'pageview');
 		</script>
+		-->
 
 	</head>
 
 	<body>
-		<nav class="navbar navbar-default navbar-fixed-top navbar-color">
-      <div class="container">
-        <div class="navbar-header pull-left">
-          <a class="navbar-brand" href="#">iMaba</a>
-        </div>
-        <ul class="nav navbar-nav navbar-right">
-        	<li id="ico-info-ui"><img src="img/headicons-05.png" alt=""></li>
-        	<li id="ico-academic"><img src="img/headicons-06.png" alt=""></li>
-        	<li id="ico-lain-lain"><img src="img/headicons-07.png" alt=""></li>
-        </ul>
-      </div>
-    </nav>
 
 		<section class="splash">
 			<div class="container">
@@ -44,14 +35,14 @@
 						<h1>iMaba</h1>
 						<p class="">Selamat datang mahasiswa baru Fakultas Ilmu Komputer UI 2016!</p>
 						<div class="row">
-							<div class="col-sm-4" id="btn-info-ui">
-								<a><img src="img/mainicons-05.png" alt=""><span>info UI</span></a>
+							<div class="col-md-4" id="btn-info-ui">
+								<a href="info.html"><img src="img/mainicons-05.png" alt=""><span>info UI</span></a>
 							</div>
-							<div class="col-sm-4" id="btn-academic">
-								<a><img src="img/mainicons-06.png" alt=""><span>akademis</span></a>
+							<div class="col-md-4" id="btn-academic">
+								<a href="akademis.html"><img src="img/mainicons-06.png" alt=""><span>akademis</span></a>
 							</div>
-							<div class="col-sm-4" id="btn-lain-lain">
-								<a><img src="img/mainicons-07.png" alt=""><span>lain-lain</span></a>
+							<div class="col-md-4" id="btn-lain-lain">
+								<a href="kemahasiswaan.html"><img src="img/mainicons-07.png" alt=""><span>lain-lain</span></a>
 							</div>
 						</div>
 					</div>
@@ -61,228 +52,9 @@
 			<span id="dummy-trigger">
 		</section>
 
-		<div class="content">
-			<section id="info-ui">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 hblock text-center">
-							<img src="img/headicons-05.png" alt="">
-							<h2>Info UI</h2>
-							<p class="text-center">Bingung mau ngekost atau tinggal di mana? Atau kalau ke Fasilkom bagaimana yaa? Mungkin penasaran juga lokasi fakultas lain?</p>
-							<hr>
-						</div>
-					</div>
-					<!-- map -->
-					<div class="row row-90">
-						<div class="col-md-7">
-							<img id="map-ui" src="img/map-ui-ln.png" alt="">
-						</div>
-						<div class="col-md-5">
-							<img id="map-ui-legend" src="img/map-ui-ln-leg.png" alt="">
-						</div>
-					</div>
-					<!-- end map -->
-					<!-- kosan -->
-					<div class="row" id="infokosan-h">
-						<div class="col-md-6 col-md-offset-3 hblock text-center">
-							<h3>Info Kostan</h3>
-							<hr>
-						</div>
-					</div>
-					<div class="row row-90 infokosan">
-						<div class="col-sm-4">
-							<img src="img/kosan/kos_Barel.png" alt="">
-							<h4>Barel</h4>
-							<p>Barel (belakang rel) adalah sebutan untuk daerah sepanjang pinggir rel kereta api dan dapat dicapai lewat jalan kecil diseberang FH. Letaknya yang paling dekat dengan Fasilkom menjadikannya salah satu pilihan favorit.</p>
-							<p class="infokosan-price">Rp. 750.000 - Rp. 1.500.000 per bulan</p>
-						</div>
-						<div class="col-sm-4">
-							<img src="img/kosan/kos_Pocin.png" alt="">
-							<h4>Pocin</h4>
-							<p>Pocin merupakan sebutan untuk daerah disekitar Stasiun Pondok Cina, letaknya hampir strategisnya dengan daerah Barel dan dekat dengan Balairung UI. Ada juga pangkalan ojek didekat stasiun lho!</p>
-							<p class="infokosan-price">Rp. 400.000 - Rp. 1.200.000 per bulan</p>
-						</div>
-						<div class="col-sm-4">
-							<img src="img/kosan/kos_Kober.png" alt="">
-							<h4>Kober</h4>
-							<p>Kober terletak seberang Barel, berada seberang sepanjang jalan raya Margonda yang ramai. Ada juga apartemen lho yaitu Margonda Residence dan Taman Melati Margonda, tapi tentu lebih mahal.</p>
-							<p class="infokosan-price">Rp. 400.000 - Rp. 1.200.000 (apartemen sekitar 1.800.000)</p>
-						</div>
-					</div>
-					<div class="row row-90 infokosan">
-						<div class="col-sm-4">
-							<img src="img/kosan/kos_Kutek.png" alt="">
-							<h4>Kutek</h4>
-							<p>Kutek (singkatan dari Kukusan Teknik) dinamakan demikian karena dekat sekali dengan Fakultas Teknik. Kutek punya jalan tembus langsung ke Fasilkom UI melalui jembatan Teksas, sehingga menjadi favorit mahasiswa Fasilkom juga.</p>
-							<p class="infokosan-price">Rp. 400.000 - Rp. 1.500.000</p>
-						</div>
-						<div class="col-sm-4">
-							<img src="img/kosan/kos_Kukel.png" alt="">
-							<h4>Kukel</h4>
-							<p>Kukel (singkatan dari Kukusan Kelurahan) berada di selatan Kutek. Harganya cenderung lebih murah meskipun fasilitasnya sedikit lebih baik daripada Kutek. Namun jalan ke Fasilkom cukup jauh dan pada malam hari sepi, biasanya perlu memakai Bikun (Bis Kuning), ojek atau motor pribadi.</p>
-							<p class="infokosan-price">Rp. 400.000 - Rp. 1.200.000</p>
-						</div>
-						<div class="col-sm-4">
-							<img src="img/kosan/kos_Asrama.png" alt="">
-							<h4>Asrama</h4>
-							<p>Asrama UI. Tenang saja karena meskipun jauh selalu ada Bikun yang siap mengantar!</p>
-							<p class="infokosan-price">Rp. 200.000 - Rp. 300.000 (kapasitas 1 - 3 orang per kamar)</p>
-						</div>
-					</div>
-					<!-- end kosan -->
-				</div>
-			</section>
-
-			<section id="academic">
-				<div class="container">
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 hblock text-center">
-							<img src="img/headicons-06.png" alt="">
-							<h2>akademis</h2>
-							<p class="text-center">Penasaran beda Ilmu Komputer dan Sistem Informasi dimana? Mau tahu belajar di Fasilkom apa aja?</p>
-							<hr>
-						</div>
-					</div>
-					<!-- ilkom vs si -->
-					<div class="row row-cont">
-						<div class="col-md-4" id="ilkomvssi">
-							<h3>Ilkom vs SI</h3>
-							<p>apa saja yah perbedaan Ilmu Komputer dan Sistem Informasi?</p>
-						</div>
-						<!-- ikvssi boxes -->
-						<div class="col-md-8">
-							<div class="col-sm-6">
-								<div class="roundedbox-l">
-									<h3>ilmu komputer</h3>
-									<p>Menekankan pada algoritma dan problem solving</p>
-									<p>Memelajari ilmu komputer secara sedikit 'hardcore'</p>
-									<p>Tempat lahirnya game dan/atau software developer handal</p>
-								</div>
-							</div>
-							<div class="col-sm-6">
-								<div class="roundedbox-r">
-									<h3>sistem informasi</h3>
-									<p>Menekankan pada pemanfaatan IT terhadap organisasi</p>
-									<p>Memelajari ilmu komputer serta manajemen dan bisnis</p>
-									<p>Tempat lahirnya system analyst dan manajer professional</p>
-								</div>
-							</div>
-						</div>
-						<!-- end ikvssi boxes -->
-					</div>
-					<!-- end ilkom vs si -->
-					<!-- rowhead -->
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 hblock text-center">
-							<h3>Belajar apa saja di Fasilkom?</h3>
-							<hr>
-						</div>
-					</div>
-					<!-- end rowhead -->
-					<!-- belajarapa -->
-					<div class="row belajarapa">
-						<div class="col-sm-4 belajarapa-item">
-							<img src="img/belajar-prog.png" alt="">
-							<h3>programming</h3>
-							<p>Programming itu apa ya? Wah sangat luas! Jika kalian sudah mahir, kalian bahkan bisa membuat aplikasi, website, bahkan game sendiri.</p>
-							<p class="coba">Masih penasaran? Coba cek link-link dibawah:</p>
-							<ul>
-								<li><a href="https://www.youtube.com/watch?v=nKIu9yen5nc">> (Video) What Most Schools Don't Teach</a></li>
-								<li><a href="https://www.youtube.com/watch?v=fjMU-km-Cso">> (Video) What is Computer Science?</a></li>
-								<li><a href="https://www.codecademy.com/learn/python">> Codecademy - Learn Programming with Python</a></li>
-							</ul>
-						</div>
-						<div class="col-sm-4 belajarapa-item">
-							<img src="img/belajar-math.png" alt="">
-							<h3>mathematics</h3>
-							<p>Matematika disini berbeda dengan matematika SMA, lho. Bisa dari membuat program, menganalisa data, bahkan mensimulasikan sebuah komputer.</p>
-							<p class="coba">Masih penasaran? Coba cek link-link dibawah:</p>
-							<ul>
-								<li><a href="https://www.youtube.com/watch?v=t7NE7apn-PA">> (Video) How Logical Are You? (Psychology of Reasoning)</a></li>
-								<li><a href="https://www.youtube.com/watch?v=Q8rVJZ-VDKQ">> (Video) The Man Who Turned Paper Into Pixels</a></li>
-								<li><a href=""></a></li>
-							</ul>
-						</div>
-						<div class="col-sm-4 belajarapa-item">
-							<img src="img/belajar-si.png" alt="">
-							<h3>development</h3>
-							<p>Bagaimana sih programmer dapat membuat ide mereka menjadi nyata? Disini kalian bisa belajar pengembangan dan manajemen suatu projek, bahkan mungkin suatu bisnis!</p>
-							<p class="coba">Masih penasaran? Coba cek link-link dibawah:</p>
-							<ul>
-								<li><a href="https://www.khanacademy.org/economics-finance-domain/entrepreneurship2">> (Video) Khan Academy - Entrepreneurship</a></li>
-								<li><a href="https://www.youtube.com/watch?v=7Pq-S557XQU">> (Video) Humans Need Not Apply</a></li>
-								<li><a href=""></a></li>
-								<li><a href=""></a></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end belajarapa -->
-				</div>
-			</section>
-
-			<section id="lain-lain">
-				<div class="container">
-					<!-- head -->
-					<div class="row">
-						<div class="col-md-8 col-md-offset-2 hblock text-center">
-							<img src="img/headicons-07.png" alt="">
-							<h2>lain-lain</h2>
-							<p class="text-center"></p>
-							<hr>
-						</div>
-					</div>
-					<!-- end head -->
-					<!-- socmed -->
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 hblock text-center">
-							<h3>Social Media</h3>
-							<hr>
-						</div>
-					</div>
-					<div class="row socmed">
-						<div class="col-md-4 col-md-offset-1">
-							<img src="img/bem_logo-h-11.png" alt="" class="center-block">
-							<p>
-							Twitter: @BEMFasilkomUI<br>
-							Line@: @BEMFasilkomUI<br>
-							Line@ Adkesma: @lmc0672o<br>
-							</p>
-						</div>
-						<div id="logopmb" class="col-md-4 col-md-offset-2">
-							<img src="img/logo_pmb.png" alt="" class="center-block">
-							<p>
-							Twitter: @PMBFasilkomUI<br>
-							Line: @xyv7855o
-							</p>
-						</div>
-					</div>
-					<!-- end socmed -->
-					<!-- what's next -->
-					<div class="row">
-						<div class="col-md-6 col-md-offset-3 hblock text-center">
-							<h3>Apa selanjutnya dari iMaba?</h3>
-							<hr>
-						</div>
-					</div>
-					<div class="row whatsnext">
-						<div class="col-md-6 col-md-offset-3">
-							<ul>
-								<li>Info akademis yg lebih lengkap (SKS, Mata kuliah apa saja)</li>
-								<li>Kegiatan/Organisasi di Fasilkom</li>
-								<li>Unit Kegiatan Fakultas (Olahraga, Seni, Keilmuan)</li>
-								<li>...dan banyak lagi!</li>
-								<li></li>
-							</ul>
-						</div>
-					</div>
-					<!-- end what's next -->
-				</div>
-			</section>
-
-			<section id="foot">
-				<h5>Created by Media BEM Fasilkom UI 2016</h5>
-			</section>
-		</div>
+		<section id="foot">
+			<h5>Created by Media BEM Fasilkom UI 2016</h5>
+		</section>
 		
 	</body>
 

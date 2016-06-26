@@ -6,7 +6,8 @@ html, body {
 
 body {
 	background-color: $almostwhite;
-	font-family: 'Josefin Sans';
+	font-family: 'Lato';
+	font-weight: 400;
 	overflow-x: hidden;
 }
 
@@ -15,7 +16,6 @@ ul, li {
 }
 
 h1 {
-	font-family: 'Lato';
 	font-weight: 900;
 	font-size: 60px;
 }
