@@ -5,6 +5,16 @@ $(document).ready(function(){
   var startchange = $('#dummy-trigger');
   var offset = startchange.offset();
   
+  $("#btn-change").click(function() {
+    $("#map-ui").fadeOut(function(){
+      if ( $(this).attr('src') == 'img/map/left.png' ) {
+        $(this).attr('src', 'img/map/left-term.png').fadeIn();
+      } else {
+        $(this).attr('src', 'img/map/left.png').fadeIn();
+      }
+    });
+  });
+
   // if (startchange.length){
   //   $(document).scroll(function() { 
   //     scroll_start = $(this).scrollTop();
