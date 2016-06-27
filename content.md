@@ -1,5 +1,7 @@
 ## iMaba
 
+git push -f origin master:gh-pages
+
 #### (Filler/Peta Fasilkom)
 
 ### ideas
