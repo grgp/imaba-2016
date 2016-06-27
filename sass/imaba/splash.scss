@@ -4,6 +4,7 @@
 	/* text-align: center; */
 	min-height: 640px;
 	max-height: 800px;
+	// max-height: 1000px;
 	border-bottom: 3px solid $lightergray;
 
 	p {
@@ -60,6 +61,9 @@
 @media only screen 
 	and (min-device-width: 768px)
   and (max-device-width: 990px) {
+  	.splash {
+  		min-height: 1024px;
+  	}
 		.col-sm-6 {
 			width: 70%;
 		}
@@ -73,5 +77,16 @@
 
 		.splash {
 			min-height: 525px;
+		}
+}
+
+@media only screen 
+  and (max-device-width: 450px) {
+		.splash-content {
+			padding-top: 200px;
+		}
+
+		.splash {
+			min-height: 720px;
 		}
 }

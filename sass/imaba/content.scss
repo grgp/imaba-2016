@@ -43,6 +43,7 @@
 	}
 	
 	.hblock {
+		margin-top: 40px;
 		img {
 			width: 140px;
 			padding: 0;
@@ -50,7 +51,7 @@
 		}
 
 		h3 {
-			margin-top: 40px;
+			// margin-top: 40px;
 		}
 	}
 
@@ -131,10 +132,13 @@
 		margin: auto;
 	}
 	p {
-		font-size: 19px;
+		padding-top: 12px;
+		font-size: 18px;
 		font-weight: 400;
 	}
 	.infokosan-price {
+		padding-top: 6px;
+		margin-bottom: 0;
 		font-weight: 600;
 	}
 }

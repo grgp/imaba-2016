@@ -24,9 +24,10 @@ hr {
 	border: $lightergray 1px solid;
 }
 
-#foot {
+.foot {
 	border-top: 3px solid $lightergray;
 	width: 100%;
+	margin-top: 30px;
 	h5 {
 		font-size: 14px;
 		font-weight: 600;
@@ -36,4 +37,9 @@ hr {
 		padding-bottom: 30px;
 		margin: 0;
 	}
+}
+
+.foot-main {
+	margin-top: 0;
+	border-top: none;
 }
