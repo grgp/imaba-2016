@@ -108,7 +108,26 @@
 		#last-p {
 			margin-bottom: 0;
 		}
+		.f-button {
+			h4 {
+				font-size: 19px;
+				color: $classicwhite;
+				padding-left: 10px;
+				padding-right: 10px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			display:inline-block;
+	    border-radius: 5px;
+	    background:$reefcyan;
+	    cursor:pointer;
+	    vertical-align:middle;
+	    max-width: 300px;
+	    padding: 5px;
+	    text-align: center;
+		}
 	}
+
 }
 
 #info-ui {

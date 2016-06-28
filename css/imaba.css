@@ -231,6 +231,22 @@ hr {
   margin-bottom: 36px; }
 .content .def-desc #last-p {
   margin-bottom: 0; }
+.content .def-desc .f-button {
+  display: inline-block;
+  border-radius: 5px;
+  background: #71ccc1;
+  cursor: pointer;
+  vertical-align: middle;
+  max-width: 300px;
+  padding: 5px;
+  text-align: center; }
+  .content .def-desc .f-button h4 {
+    font-size: 19px;
+    color: #f9f9f9;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px; }
 
 #info-ui {
   padding-top: 30px; }
