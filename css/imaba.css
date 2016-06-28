@@ -283,6 +283,8 @@ hr {
 
 #academic {
   padding-top: 30px; }
+  #academic .prospek p {
+    font-size: 16px; }
   #academic .belajarapa .belajarapa-item {
     margin-bottom: 40px; }
   #academic .belajarapa div {
