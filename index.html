@@ -28,6 +28,9 @@
 
 	<body>
 
+	<script src="js/jquery-2.1.4.js"></script>
+	<script src="js/scripts.js"></script>
+
 		<section class="splash">
 			<div class="container">
 				<div class="row">
@@ -35,18 +38,20 @@
 						<h1>iMaba</h1>
 						<p class="">Selamat datang mahasiswa baru Fakultas Ilmu Komputer UI 2016!</p>
 						<div class="row">
-							<div class="col-md-4" id="btn-info-ui">
+							<div class="col-md-4 grow" id="btn-info-ui">
 								<a href="info.html"><img src="img/icons/nhead-05.png" alt=""><span>info UI</span></a>
 							</div>
-							<div class="col-md-4" id="btn-academic">
+							<div class="col-md-4 grow" id="btn-academic">
 								<a href="akademis.html"><img src="img/icons/nhead-06.png" alt=""><span>akademis</span></a>
 							</div>
-							<div class="col-md-4" id="btn-kemahasiswaan">
+							<div class="col-md-4 grow" id="btn-kemahasiswaan">
 								<a href="kemahasiswaan.html"><img src="img/icons/nhead-07.png" alt=""><span>lain-lain</span></a>
 							</div>
 						</div>
 					</div>
-					<div class="col-sm-6 hidden-xs hidden-sm splash-image"><img src="img/splash-img.png" alt=""></div>
+					<div class="col-sm-6 hidden-xs hidden-sm splash-image">
+						<img src="img/splash-img.png" onload="fadeIn(this)" alt="">
+					</div>
 				</div>
 			</div>
 			<span id="dummy-trigger">
@@ -59,9 +64,7 @@
 	</body>
 
 	<footer>
-		<script src="js/bootstrap.min.js"></script>
-		<script src="js/jquery-2.1.4.js"></script>
-		<script src="js/scripts.js"></script>
+		
 	</footer>
 </html>
 

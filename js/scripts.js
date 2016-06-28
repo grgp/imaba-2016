@@ -1,4 +1,8 @@
-// header transition in on scroll
+// this function must be defined in the global scope
+window.fadeIn = function(obj) {
+    $(obj).fadeIn(1000);
+}
+
 $(document).ready(function(){       
   
   var scroll_start = 0;

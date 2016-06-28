@@ -23,6 +23,15 @@ h1 {
 hr {
   border: #e4e4e4 1px solid; }
 
+.grow {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  transition: all .3s ease-in-out; }
+  .grow:hover {
+    transform: scale(1.1); }
+
 .foot {
   border-top: 3px solid #e4e4e4;
   width: 100%;
