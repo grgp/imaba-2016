@@ -212,6 +212,18 @@ hr {
   border: 5px solid #f95562;
   border-radius: 6px;
   padding: 22px; }
+.content .def-desc h4 {
+  font-size: 22px;
+  font-weight: 900;
+  color: #3cbca4; }
+.content .def-desc hr {
+  margin-top: 0; }
+.content .def-desc p {
+  padding-left: 14px;
+  font-size: 18px;
+  margin-bottom: 36px; }
+.content .def-desc #last-p {
+  margin-bottom: 0; }
 
 #info-ui {
   padding-top: 30px; }

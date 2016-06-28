@@ -85,6 +85,25 @@
 		border-radius: 6px;
 		padding: 22px;
 	}
+
+	.def-desc {
+		h4 {
+			font-size: 22px;
+			font-weight: 900;
+			color: $reefcyanoff;
+		}
+		hr {
+			margin-top: 0;
+		}
+		p {
+			padding-left: 14px;
+			font-size: 18px;
+			margin-bottom: 36px;
+		}
+		#last-p {
+			margin-bottom: 0;
+		}
+	}
 }
 
 #info-ui {
