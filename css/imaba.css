@@ -182,7 +182,7 @@ hr {
   margin-bottom: 14px; }
 .content p {
   font-size: 21px;
-  font-weight: 600;
+  font-weight: 400;
   color: #606060; }
 .content .hblock {
   margin-top: 40px; }
@@ -190,6 +190,8 @@ hr {
     width: 140px;
     padding: 0;
     margin: 0; }
+  .content .hblock p {
+    font-weight: 600; }
 .content .row-cont {
   margin-top: 30px; }
   .content .row-cont h3 {
@@ -262,7 +264,7 @@ hr {
     font-size: 30px;
     color: #505050; }
   #academic .belajarapa p {
-    font-weight: 500;
+    font-weight: 400;
     margin-top: 20px;
     text-align: center; }
   #academic .belajarapa .coba {
@@ -279,20 +281,33 @@ hr {
 
 #lain-lain {
   padding-top: 30px; }
+  #lain-lain p {
+    font-weight: 400; }
+  #lain-lain .badano .row {
+    margin-top: 10px; }
+  #lain-lain .badano #row-bem {
+    margin-bottom: 50px; }
+  #lain-lain .badano p {
+    color: #606060; }
+  #lain-lain .badano img {
+    padding: 10px;
+    padding-top: 0;
+    padding-bottom: 0; }
+  #lain-lain .badano h4 {
+    font-weight: 900; }
+  #lain-lain .badano-org .row {
+    margin-bottom: 50px; }
+  #lain-lain .hblock {
+    margin-top: 0; }
   #lain-lain .socmed img {
+    padding: 30px;
+    padding-top: 0;
     width: 90%; }
-  #lain-lain .socmed #logokontingen img {
-    max-height: 130px;
-    max-width: 130px; }
-  #lain-lain .socmed #logopmb {
-    padding-left: 60px;
-    padding-right: 60px; }
   #lain-lain .socmed p {
     font-size: 20px;
+    font-weight: 600;
     text-align: center;
     line-height: 32px; }
-  #lain-lain .socmed #logopmb {
-    margin-bottom: 10px; }
   #lain-lain .whatsnext {
     margin-top: 0;
     margin-bottom: 60px;
@@ -304,9 +319,13 @@ hr {
     color: #606060; }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 990px) {
+  #lain-lain .badano img {
+    width: 50%; }
   #lain-lain .socmed img {
     width: 70%; } }
 @media only screen and (max-device-width: 540px) {
+  #lain-lain .badano img {
+    width: 50%; }
   #lain-lain .socmed img {
     width: 70%; } }
 
