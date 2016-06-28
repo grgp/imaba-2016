@@ -316,6 +316,8 @@ hr {
 
 #lain-lain {
   padding-top: 30px; }
+  #lain-lain .hblock p {
+    font-weight: 600; }
   #lain-lain p {
     font-weight: 400; }
   #lain-lain .badano .row {
