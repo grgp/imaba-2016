@@ -274,7 +274,7 @@ hr {
   margin: auto; }
 .infokosan p {
   padding-top: 12px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 400; }
 .infokosan .infokosan-price {
   padding-top: 6px;
@@ -320,6 +320,8 @@ hr {
   padding-top: 30px; }
   #lain-lain .hblock p {
     font-weight: 600; }
+  #lain-lain .p-reg p {
+    font-weight: 400; }
   #lain-lain p {
     font-weight: 400; }
   #lain-lain .badano .row {
@@ -347,15 +349,8 @@ hr {
     font-weight: 600;
     text-align: center;
     line-height: 32px; }
-  #lain-lain .whatsnext {
-    margin-top: 0;
-    margin-bottom: 60px;
-    text-align: center; }
-  #lain-lain .whatsnext li {
-    list-style-type: none;
-    font-size: 18px;
-    font-weight: 400;
-    color: #606060; }
+  #lain-lain .boolean {
+    margin-top: 80px; }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 990px) {
   #lain-lain .badano img {

@@ -53,6 +53,7 @@
 		p {
 			font-weight: 600;
 		}
+
 	}
 
 	.row-cont {
@@ -176,7 +177,7 @@
 	}
 	p {
 		padding-top: 12px;
-		font-size: 16px;
+		font-size: 18px;
 		font-weight: 400;
 	}
 	.infokosan-price {
@@ -248,6 +249,10 @@
 		font-weight: 600;
 	}
 
+	.p-reg p {
+		font-weight: 400;
+	}
+
 	p {
 		font-weight: 400;
 	}
@@ -300,17 +305,8 @@
 		}
 	}
 
-	.whatsnext {
-		margin-top: 0;
-		margin-bottom: 60px;
-		text-align: center;
-	}
-
-	.whatsnext li {
-		list-style-type: none;
-		font-size: 18px;
-		font-weight: 400;
-		color: $darkgray;
+	.boolean {
+		margin-top: 80px;
 	}
 }
 
