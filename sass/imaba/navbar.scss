@@ -38,6 +38,9 @@
 }
 
 /* override collapse */
+.navbar-nav li a {
+	padding: 0 !important;
+}
 .navbar-collapse.collapse {
 	display: block!important;
 }

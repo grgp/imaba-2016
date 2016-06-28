@@ -133,6 +133,9 @@ hr {
     color: #3cbca4; }
 
 /* override collapse */
+.navbar-nav li a {
+  padding: 0 !important; }
+
 .navbar-collapse.collapse {
   display: block !important; }
 
@@ -193,14 +196,14 @@ hr {
   .content .hblock p {
     font-weight: 600; }
 .content .row-cont {
-  margin-top: 30px; }
+  margin-top: 0px; }
   .content .row-cont h3 {
     margin-bottom: 16px; }
   .content .row-cont p {
     font-size: 18px; }
 .content #ilkomvssi {
   text-align: left;
-  padding: 70px 22px 0 25px; }
+  padding: 70px 5px 20px 5px; }
   .content #ilkomvssi p {
     font-size: 20px; }
 .content .roundedbox-l {
@@ -209,9 +212,13 @@ hr {
   padding: 22px;
   margin-bottom: 20px; }
 .content .roundedbox-r {
-  border: 5px solid #f95562;
+  border: 5px solid #f2be2a;
   border-radius: 6px;
   padding: 22px; }
+.content .def-desc h2 {
+  font-size: 30px;
+  font-weight: 900;
+  color: #3cbca4; }
 .content .def-desc h4 {
   font-size: 22px;
   font-weight: 900;
@@ -219,7 +226,7 @@ hr {
 .content .def-desc hr {
   margin-top: 0; }
 .content .def-desc p {
-  padding-left: 14px;
+  padding-left: 0px;
   font-size: 18px;
   margin-bottom: 36px; }
 .content .def-desc #last-p {
