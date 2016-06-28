@@ -215,38 +215,40 @@ hr {
   border: 5px solid #f2be2a;
   border-radius: 6px;
   padding: 22px; }
-.content .def-desc h2 {
-  font-size: 30px;
-  font-weight: 900;
-  color: #3cbca4; }
-.content .def-desc h4 {
-  font-size: 22px;
-  font-weight: 900;
-  color: #3cbca4; }
-.content .def-desc hr {
-  margin-top: 0; }
-.content .def-desc p {
-  padding-left: 0px;
-  font-size: 18px;
-  margin-bottom: 36px; }
-.content .def-desc #last-p {
-  margin-bottom: 0; }
-.content .def-desc .f-button {
-  display: inline-block;
-  border-radius: 5px;
-  background: #71ccc1;
-  cursor: pointer;
-  vertical-align: middle;
-  max-width: 300px;
-  padding: 5px;
-  text-align: center; }
-  .content .def-desc .f-button h4 {
-    font-size: 19px;
-    color: #f9f9f9;
-    padding-left: 10px;
-    padding-right: 10px;
-    margin-top: 5px;
-    margin-bottom: 5px; }
+.content .def-desc {
+  margin-top: 20px; }
+  .content .def-desc h2 {
+    font-size: 30px;
+    font-weight: 900;
+    color: #3cbca4; }
+  .content .def-desc h4 {
+    font-size: 22px;
+    font-weight: 900;
+    color: #3cbca4; }
+  .content .def-desc hr {
+    margin-top: 0; }
+  .content .def-desc p {
+    padding-left: 0px;
+    font-size: 18px;
+    margin-bottom: 36px; }
+  .content .def-desc #last-p {
+    margin-bottom: 0; }
+  .content .def-desc .f-button {
+    display: inline-block;
+    border-radius: 5px;
+    background: #71ccc1;
+    cursor: pointer;
+    vertical-align: middle;
+    max-width: 300px;
+    padding: 5px;
+    text-align: center; }
+    .content .def-desc .f-button h4 {
+      font-size: 19px;
+      color: #f9f9f9;
+      padding-left: 10px;
+      padding-right: 10px;
+      margin-top: 5px;
+      margin-bottom: 5px; }
 
 #info-ui {
   padding-top: 30px; }
@@ -254,10 +256,12 @@ hr {
     padding: 0px; }
   #info-ui #map-ui {
     padding-left: 25px;
-    padding-right: 25px; }
+    padding-right: 25px;
+    margin-bottom: 20px; }
   #info-ui #map-ui-legend {
     padding-left: 40px;
-    padding-right: 80px; }
+    padding-right: 80px;
+    margin-bottom: 20px; }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 540px) {
   #info-ui #map-ui {
@@ -329,6 +333,7 @@ hr {
   #lain-lain .badano #row-bem {
     margin-bottom: 50px; }
   #lain-lain .badano p {
+    font-size: 18px;
     color: #606060; }
   #lain-lain .badano img {
     padding: 10px;

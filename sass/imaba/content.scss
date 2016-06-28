@@ -88,6 +88,7 @@
 	}
 
 	.def-desc {
+		margin-top: 20px;
 		h2 {
 			font-size: 30px;
 			font-weight: 900;
@@ -141,11 +142,13 @@
 	#map-ui {
 		padding-left: 25px;
 		padding-right: 25px;
+		margin-bottom: 20px;
 	}
 
 	#map-ui-legend {
 		padding-left: 40px;
 		padding-right: 80px;
+		margin-bottom: 20px;
 	}
 }
 
@@ -267,6 +270,7 @@
 		}
 	
 		p {
+			font-size: 18px;
 			color: $darkgray;
 		}
 
