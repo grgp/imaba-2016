@@ -67,7 +67,7 @@
 	}
 
 	#ilkomvssi {
-		text-align: left;
+		text-align: center;
 		padding: 70px 5px 20px 5px;
 		p {
 			font-size: 20px;
@@ -90,6 +90,7 @@
 	.def-desc {
 		margin-top: 20px;
 		h2 {
+			margin-top: 40px;
 			font-size: 30px;
 			font-weight: 900;
 			color: $reefcyanoff;
@@ -291,12 +292,14 @@
 		}
 	}
 	
-	.hblock {
-		margin-top: 0;
-	}
+	// .hblock {
+	// 	margin-top: 0;
+	// }
 
 	.socmed {
+		margin-top: 0;
 		img {
+			margin-top: 40px;
 			padding: 30px;
 			padding-top: 0;
 			width: 90%;
@@ -317,6 +320,17 @@
 @media only screen 
 	and (min-device-width: 768px)
   and (max-device-width: 990px) {
+		.content .row-90 {
+			padding-left: 0%;
+			padding-right: 0%;
+		}
+
+		#info-ui #map-ui-legend {
+			padding-top: 40px;
+			padding-left: 15%;
+			padding-right: 20%;
+		}
+
 		#lain-lain {
 			.badano img {
 				width: 50%;
@@ -332,8 +346,14 @@
 @media only screen 
   and (max-device-width: 540px) {
 		#lain-lain {
-			.badano img {
-				width: 50%;
+			.badano {
+				h4 {
+					// text-align: center;
+				}
+				img {
+					// text-align: center;
+					width: 60%;
+				}
 			}
 			.socmed {
 				img {

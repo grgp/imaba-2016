@@ -202,7 +202,7 @@ hr {
   .content .row-cont p {
     font-size: 18px; }
 .content #ilkomvssi {
-  text-align: left;
+  text-align: center;
   padding: 70px 5px 20px 5px; }
   .content #ilkomvssi p {
     font-size: 20px; }
@@ -218,6 +218,7 @@ hr {
 .content .def-desc {
   margin-top: 20px; }
   .content .def-desc h2 {
+    margin-top: 40px;
     font-size: 30px;
     font-weight: 900;
     color: #3cbca4; }
@@ -343,28 +344,38 @@ hr {
     font-weight: 900; }
   #lain-lain .badano-org .row {
     margin-bottom: 50px; }
-  #lain-lain .hblock {
+  #lain-lain .socmed {
     margin-top: 0; }
-  #lain-lain .socmed img {
-    padding: 30px;
-    padding-top: 0;
-    width: 90%; }
-  #lain-lain .socmed p {
-    font-size: 20px;
-    font-weight: 600;
-    text-align: center;
-    line-height: 32px; }
+    #lain-lain .socmed img {
+      margin-top: 40px;
+      padding: 30px;
+      padding-top: 0;
+      width: 90%; }
+    #lain-lain .socmed p {
+      font-size: 20px;
+      font-weight: 600;
+      text-align: center;
+      line-height: 32px; }
   #lain-lain .boolean {
     margin-top: 80px; }
 
 @media only screen and (min-device-width: 768px) and (max-device-width: 990px) {
+  .content .row-90 {
+    padding-left: 0%;
+    padding-right: 0%; }
+
+  #info-ui #map-ui-legend {
+    padding-top: 40px;
+    padding-left: 15%;
+    padding-right: 20%; }
+
   #lain-lain .badano img {
     width: 50%; }
   #lain-lain .socmed img {
     width: 70%; } }
 @media only screen and (max-device-width: 540px) {
   #lain-lain .badano img {
-    width: 50%; }
+    width: 60%; }
   #lain-lain .socmed img {
     width: 70%; } }
 
