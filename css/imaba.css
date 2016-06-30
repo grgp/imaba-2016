@@ -337,13 +337,15 @@ hr {
     margin-bottom: 50px; }
   #lain-lain .badano p {
     font-size: 18px;
-    color: #606060; }
+    color: #606060;
+    text-align: center; }
   #lain-lain .badano img {
     padding: 10px;
     padding-top: 0;
     padding-bottom: 0; }
   #lain-lain .badano h4 {
-    font-weight: 900; }
+    font-weight: 900;
+    text-align: center; }
   #lain-lain .badano-org .row {
     margin-bottom: 50px; }
   #lain-lain .socmed {
