@@ -148,16 +148,24 @@ hr {
 .navbar-right {
   float: right !important; }
 
+@media only screen and (min-device-width: 768px) and (max-device-width: 990px) {
+  .navbar-brand {
+    margin-top: 4px; } }
 @media only screen and (max-device-width: 768px) {
   .navbar-brand {
-    margin-top: 8px;
-    padding-left: 10px !important; }
+    padding-left: 12px !important; }
 
   .navbar-right {
-    padding-right: 15px; }
+    padding-right: 12px; }
 
   .nav li {
     padding-left: 4px; } }
+@media only screen and (max-device-width: 560px) {
+  .navbar-brand {
+    margin-top: 8px; } }
+@media only screen and (max-device-width: 320px) {
+  .navbar img {
+    padding-left: 15px; } }
 /* #info-ui, #academic, #kemahasiswaan, #lain-lain { */
 .content .row {
   margin-top: 35px; }
@@ -210,7 +218,7 @@ hr {
   border: 5px solid #71ccc1;
   border-radius: 4px;
   padding: 22px;
-  margin-bottom: 20px; }
+  margin-bottom: 40px; }
 .content .roundedbox-r {
   border: 5px solid #f2be2a;
   border-radius: 6px;
@@ -319,7 +327,8 @@ hr {
   #academic .belajarapa li {
     list-style-type: none;
     font-size: 18px;
-    font-weight: 600; }
+    font-weight: 600;
+    padding-bottom: 3px; }
   #academic .belajarapa a {
     color: #3cbca4; }
 
@@ -337,15 +346,13 @@ hr {
     margin-bottom: 50px; }
   #lain-lain .badano p {
     font-size: 18px;
-    color: #606060;
-    text-align: center; }
+    color: #606060; }
   #lain-lain .badano img {
-    padding: 10px;
-    padding-top: 0;
+    padding: 30px;
+    padding-top: 10px;
     padding-bottom: 0; }
   #lain-lain .badano h4 {
-    font-weight: 900;
-    text-align: center; }
+    font-weight: 900; }
   #lain-lain .badano-org .row {
     margin-bottom: 50px; }
   #lain-lain .socmed {
@@ -374,12 +381,22 @@ hr {
     padding-right: 20%; }
 
   #lain-lain .badano img {
-    width: 50%; }
+    width: 100%; }
   #lain-lain .socmed img {
-    width: 70%; } }
+    width: 100%; } }
 @media only screen and (max-device-width: 540px) {
+  #academic .belajarapa {
+    text-align: center; }
+
+  #lain-lain .badano h4 {
+    text-align: center; }
   #lain-lain .badano img {
-    width: 60%; }
+    width: 50%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 40px; }
+  #lain-lain .badano p {
+    text-align: center; }
   #lain-lain .socmed img {
     width: 70%; } }
 

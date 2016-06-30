@@ -78,7 +78,7 @@
 		border: 5px solid $reefcyan;
 		border-radius: 4px;
 		padding: 22px;
-		margin-bottom: 20px;
+		margin-bottom: 40px;
 	}
 
 	.roundedbox-r {
@@ -239,6 +239,7 @@
 			list-style-type: none;
 			font-size: 18px;
 			font-weight: 600;
+			padding-bottom: 4px;
 		}
 		a {
 			color: $reefcyanoff;		
@@ -276,18 +277,16 @@
 		p {
 			font-size: 18px;
 			color: $darkgray;
-			text-align: center;
 		}
 
 		img {
-			padding: 10px;
-			padding-top: 0;
+			padding: 30px;
+			padding-top: 10px;
 			padding-bottom: 0;
 		}
 
 		h4 {
 			font-weight: 900;
-			text-align: center;
 		}
 	}
 
@@ -338,11 +337,11 @@
 
 		#lain-lain {
 			.badano img {
-				width: 50%;
+				width: 100%;
 			}
 			.socmed {
 				img {
-					width: 70%;
+					width: 100%;
 				}
 			}
 		}
@@ -350,14 +349,25 @@
 
 @media only screen 
   and (max-device-width: 540px) {
+		#academic {
+			.belajarapa {
+				text-align: center;
+			}
+		}
+
 		#lain-lain {
 			.badano {
 				h4 {
-					// text-align: center;
+					text-align: center;
 				}
 				img {
-					// text-align: center;
-					width: 60%;
+					width: 50%;
+					display: block;
+					margin: 0 auto;
+					margin-top: 40px;
+				}
+				p {
+					text-align: center;
 				}
 			}
 			.socmed {
